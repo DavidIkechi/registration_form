@@ -71,7 +71,7 @@ main .container .form form {
   box-shadow: 0px 4px #b9595a;
 }
 
-main .container .form button {
+main .container .form #free {
   background-color: hsl(248, 32%, 49%);
   text-align: center;
   margin-bottom: 15px;
@@ -87,7 +87,7 @@ main .container .form button {
   padding: 10px 25px 10px 25px;
 }
 
-main .container .form button span {
+main .container .form #free span {
   font-weight: lighter;
 }
 
@@ -131,6 +131,12 @@ main .container .form form.check input:invalid + span[data-error]::after {
 }
 
 main .container .form form .input_container #submit {
+  width: inherit;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 25px 10px 25px;
+
   text-align: center;
   background-color: hsl(154, 59%, 51%);
   border: none;
