@@ -148,7 +148,7 @@ main .container .form form .input_container #submit {
 
 main .container .form form .input_container #submit:hover{
   cursor: pointer;
-  background-color: hsl(154, 59%, 90%);
+  background-color: hsl(154, 59%, 75%);
 }
 
 main .container .form p {
